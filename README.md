@@ -5,7 +5,7 @@ a mimimum of coding.
 
 ![turnout demo](simple_turnout.png)
 
-'''python
+```python
 from mimic_panel_express import Track, Stub, Turnout, Signal
 
 # Define the individual items
@@ -23,4 +23,4 @@ layout.add(siding)
 
 # Run the layout with all defaults
 layout.run()
-'''
+```
