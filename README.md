@@ -24,3 +24,13 @@ layout.add(siding)
 # Run the layout with all defaults
 layout.run()
 ```
+## Dependencies
+PySimpleGUI is used for the display simply because it is far easier to construct
+the display letting PtSimpleGUI do the heavy lifting, in exactly the same way
+that mimic_panel_express does the heavy lifting of providing schematic elements of a railway layout.
+
+To install PySimpleGUI use pip:
+
+```
+pip install pysimplegui
+```
