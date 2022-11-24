@@ -283,7 +283,7 @@ class Signal:
 class Turnout:
     class _Iterator:
         def __init__(self, item):
-            seld._item = item
+            self._item = item
             self._index = 0
 
         def __next__(self):
@@ -432,7 +432,7 @@ class Block:
         for item in self.items:
             item.clicked(figures)
 
-    def erase():
+    def erase(self):
         for item in self.items:
             item.erase()
 
@@ -560,7 +560,7 @@ class Layout:
         return self.find_element(key)
 
     def find_element(self, key):
-        for block in blocks:
+        for block in self.blocks:
             if block.id == key:
                 return block
         raise KeyError(key)
