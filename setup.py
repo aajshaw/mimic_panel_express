@@ -19,6 +19,7 @@ setuptools.setup(
     keywords="model railway mimic panel",
     url="https://github.com/aajshaw/mimic_panel_express",
     packages=setuptools.find_packages(),
+    install_requires=['pysimplegui',],
     classifiers=(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.4",
