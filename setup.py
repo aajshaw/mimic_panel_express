@@ -16,7 +16,7 @@ setuptools.setup(
     description="Simple mimic panel development",
     long_description=readme(),
     long_description_content_type="text/markdown",
-    keywords="model railway mimic panel",
+    keywords="model railway control panel",
     url="https://github.com/aajshaw/mimic_panel_express",
     packages=setuptools.find_packages(),
     install_requires=['pysimplegui',],
@@ -30,8 +30,9 @@ setuptools.setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
-        "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+        "License :: BSD 3-Clause :: BSD 3-Clause License",
         "Topic :: SOFTWARE DEVELOPMENT :: LIBRARIES :: PYTHON_MODULES",
         "Operating System :: OS Independent"
     ),
+    zip_safe=True,
 )
